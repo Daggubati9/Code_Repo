@@ -1,0 +1,9 @@
+# hello_world_script.py
+
+def greet_user():
+    print("Hello, World!")
+    name = input("What's your name? ")
+    print(f"Nice to meet you, {name}!")
+
+if __name__ == "__main__":
+    greet_user()
